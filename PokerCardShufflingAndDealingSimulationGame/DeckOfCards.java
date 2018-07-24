@@ -9,9 +9,9 @@ public class DeckOfCards {
 
 	public DeckOfCards() {
 
-		String[] faces = [ "Ace", "Deuce", "Three", "Four", "Five", "Six", "Seven", 
-			"Eight", "Nine", "Ten", "Jack", "Queen", "King" ];
-		String[] suits = [ "Hearts", "Diamonds", "Clubs", "Spades" ];
+		String[] faces = { "Ace", "Deuce", "Three", "Four", "Five", "Six", "Seven", 
+			"Eight", "Nine", "Ten", "Jack", "Queen", "King" };
+		String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
 
 		deck = new Card[ NUMBER_OF_CARDS ];
 		currentCard = 0;
